@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,400i|Playfair+Display|Raleway|Source+Sans+Pro');
+
+.first-section {
+    min-height: 150px;
+    width: 67%;
+    position: relative;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.p1 {
+    margin-bottom: 12px;
+}
+
+.welcome {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.mid-section {
+    margin: 0px auto 10px auto;
+    width: 80%;
+    vertical-align: middle;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    }
+
+    .mid-section div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 175px;
+        min-width: 150px;
+        max-width: 300px;
+        width: 24.75%;
+    }
+
+img {
+    width: 135px;
+}
+
+.last-section {
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+footer {
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: #0645AD;
+    margin-top: 6px;
+}
+
+footer p {
+    display: inline;
+    margin-left: 5px;
+}
